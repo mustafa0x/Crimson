@@ -72,11 +72,11 @@ KernClass2: 72+ 56 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  16 J IJ Jcircumflex
  14 K Kcommaaccent
  40 L Lacute Lcommaaccent Lcaron Ldot Lslash
- 1 M
- 39 N Ntilde Nacute Ncommaaccent Ncaron Eng
+ 9 M uni1E42
+ 47 N Ntilde Nacute Ncommaaccent Ncaron Eng uni1E44
  114 D O Q Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Omacron Obreve Ohungarumlaut Oslashacute
  1 P
- 28 R Racute Rcommaaccent Rcaron
+ 36 R Racute Rcommaaccent Rcaron uni1E5A
  49 S Sacute Scircumflex Scedilla Scaron Scommaaccent
  34 T Tcommaaccent Tcaron Tbar uni021A
  119 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D5 uni01D7 uni01D9 uni01DB
@@ -97,11 +97,11 @@ KernClass2: 72+ 56 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  25 j ij jcircumflex dotlessj
  27 k kcommaaccent kgreenlandic
  35 l lacute lcommaaccent lcaron lslash
- 56 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron
+ 72 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron uni1E43 uni1E45
  92 o ograve oacute ocircumflex otilde odieresis oslash omacron obreve ohungarumlaut oslashacute
  7 p thorn
  1 q
- 28 r racute rcommaaccent rcaron
+ 36 r racute rcommaaccent rcaron uni1E5B
  49 s sacute scircumflex scedilla scaron scommaaccent
  34 t tcommaaccent tcaron tbar uni021B
  119 u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek uni01D6 uni01D8 uni01DA uni01DC
@@ -136,8 +136,8 @@ KernClass2: 72+ 56 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  13 J Jcircumflex
  119 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni01D5 uni01D7 uni01D9 uni01DB
  84 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Aringacute
- 296 B D E F H I K L P R Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Thorn Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Racute Rcommaaccent Rcaron
- 39 N Ntilde Nacute Ncommaaccent Ncaron Eng
+ 304 B D E F H I K L P R Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Thorn Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Racute Rcommaaccent Rcaron uni1E5A
+ 47 N Ntilde Nacute Ncommaaccent Ncaron Eng uni1E44
  18 AE uni01E2 AEacute
  8 asterisk
  6 hyphen
@@ -202,7 +202,7 @@ StemSnapV 16 [55 104 114 130]
 ForceBold 4 true
 ExpansionFactor 4 0.06
 EndPrivate
-BeginChars: 65560 431
+BeginChars: 65560 437
 
 StartChar: space
 Encoding: 32 32 0
@@ -9309,6 +9309,62 @@ VStem: 31 261
 LayerCount: 2
 Fore
 Refer: 192 8208 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E5B
+Encoding: 7771 7771 431
+Width: 415
+LayerCount: 2
+Fore
+Refer: 256 803 N 1 0 0 1 11 -27 2
+Refer: 82 114 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E5A
+Encoding: 7770 7770 432
+Width: 659
+LayerCount: 2
+Fore
+Refer: 256 803 N 1 0 0 1 214.5 -27.3607 2
+Refer: 50 82 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E42
+Encoding: 7746 7746 433
+Width: 908
+HStem: -189 124<404.2 497.8> -4 34<22.4798 97.8317 181.954 260.281 609.723 677.506 809.002 878.072> 629 33<60.3757 125.188 794.4 853.693>
+VStem: 389 124<-173.8 -80.2003>
+LayerCount: 2
+Fore
+Refer: 256 803 N 1 0 0 1 300 -27 2
+Refer: 45 77 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E43
+Encoding: 7747 7747 434
+Width: 838
+LayerCount: 2
+Fore
+Refer: 256 803 N 1 0 0 1 277.5 -27 2
+Refer: 77 109 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E44
+Encoding: 7748 7748 435
+Width: 769
+LayerCount: 2
+Fore
+Refer: 248 775 N 1 0 0 1 252 220 2
+Refer: 46 78 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E45
+Encoding: 7749 7749 436
+Width: 565
+LayerCount: 2
+Fore
+Refer: 248 775 N 1 0 0 1 152.845 -3 2
+Refer: 78 110 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

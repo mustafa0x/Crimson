@@ -73,12 +73,12 @@ KernClass2: 74+ 59 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  16 J IJ Jcircumflex
  14 K Kcommaaccent
  40 L Lacute Lcommaaccent Lcaron Ldot Lslash
- 1 M
- 39 N Ntilde Nacute Ncommaaccent Ncaron Eng
+ 9 M uni1E42
+ 47 N Ntilde Nacute Ncommaaccent Ncaron Eng uni1E44
  80 O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Omacron Obreve Ohungarumlaut
  1 P
  1 Q
- 28 R Racute Rcommaaccent Rcaron
+ 36 R Racute Rcommaaccent Rcaron uni1E5A
  49 S Sacute Scircumflex Scedilla Scaron Scommaaccent
  34 T Tcommaaccent Tcaron Tbar uni021A
  87 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek
@@ -99,11 +99,11 @@ KernClass2: 74+ 59 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  25 j ij jcircumflex dotlessj
  27 k kcommaaccent kgreenlandic
  35 l lacute lcommaaccent lcaron lslash
- 56 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron
+ 72 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron uni1E43 uni1E45
  80 o ograve oacute ocircumflex otilde odieresis oslash omacron obreve ohungarumlaut
  7 p thorn
  1 q
- 28 r racute rcommaaccent rcaron
+ 36 r racute rcommaaccent rcaron uni1E5B
  49 s sacute scircumflex scedilla scaron scommaaccent
  34 t tcommaaccent tcaron tbar uni021B
  87 u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek
@@ -139,7 +139,7 @@ KernClass2: 74+ 59 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  87 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek
  12 f germandbls
  296 B D E F H I K L P R Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Thorn Dcaron Dcroat Emacron Ebreve Edotaccent Eogonek Ecaron Hcircumflex Hbar Itilde Imacron Ibreve Iogonek Idotaccent IJ Kcommaaccent Lacute Lcommaaccent Lcaron Ldot Lslash Racute Rcommaaccent Rcaron
- 39 N Ntilde Nacute Ncommaaccent Ncaron Eng
+ 47 N Ntilde Nacute Ncommaaccent Ncaron Eng uni1E44
  8 asterisk
  30 hyphen endash emdash afii00208
  5 slash
@@ -207,7 +207,7 @@ StemSnapV 12 [99 105 119]
 ForceBold 4 true
 ExpansionFactor 4 0.06
 EndPrivate
-BeginChars: 65563 413
+BeginChars: 65563 419
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -8965,6 +8965,60 @@ VStem: 50 256<208.329 264>
 LayerCount: 2
 Fore
 Refer: 193 8208 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E5B
+Encoding: 7771 7771 413
+Width: 393
+LayerCount: 2
+Fore
+Refer: 241 803 N 1 0 0 1 -43.7144 -27 2
+Refer: 81 114 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E5A
+Encoding: 7770 7770 414
+Width: 613
+LayerCount: 2
+Fore
+Refer: 241 803 N 1 0 0 1 154.715 -27.3607 2
+Refer: 49 82 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E42
+Encoding: 7746 7746 415
+Width: 855
+LayerCount: 2
+Fore
+Refer: 241 803 N 1 0 0 1 231.286 -27 2
+Refer: 44 77 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E43
+Encoding: 7747 7747 416
+Width: 736
+LayerCount: 2
+Fore
+Refer: 241 803 N 1 0 0 1 169.286 -30 2
+Refer: 76 109 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E44
+Encoding: 7748 7748 417
+Width: 724
+LayerCount: 2
+Fore
+Refer: 233 775 N 1 0 0 1 226.492 207 2
+Refer: 45 78 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1E45
+Encoding: 7749 7749 418
+Width: 518
+LayerCount: 2
+Fore
+Refer: 233 775 N 1 0 0 1 75.5472 -17 2
+Refer: 77 110 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
